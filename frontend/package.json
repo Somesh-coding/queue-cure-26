@@ -1,0 +1,19 @@
+{
+  "name": "queue-cure-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@stomp/stompjs": "^7.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "sockjs-client": "^1.6.1",
+    "vite": "^5.4.11",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
